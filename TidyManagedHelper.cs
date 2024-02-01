@@ -58,3 +58,19 @@ namespace SunamoTidy;
 //        }
 //    }
 //}
+//public static string WriteTidyConfigToExecutableLocation()
+//{
+//    string tidy_config = null; //FS.GetFileInStartupPath("tidy_config.txt");
+
+//    if (!File.Exists(tidy_config))
+//    {
+//        EmbeddedResourcesH eh = new EmbeddedResourcesH(typeof(TidyExeHelper).Assembly, "win");
+
+//        var stream = eh.GetStream("Resources/tidy_config.txt");
+//        var content = BTS.StringFromStream(stream);
+
+//        File.WriteAllTextAsync(tidy_config, content);
+//    }
+
+//    return tidy_config;
+//}
