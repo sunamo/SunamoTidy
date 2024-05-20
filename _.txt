@@ -1,0 +1,2 @@
+﻿užívalo TidyHtml5ManagedRepack nuget
+ale nedařilo se zkompilovat - chybělo vše z .netu
