@@ -1,3 +1,5 @@
+
+namespace SunamoTidy;
 public class TranslateAble
 {
     
