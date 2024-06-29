@@ -5,10 +5,6 @@
     <Description>Wrapper around TidyHtml5ManagedRepack</Description>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="libtidy.dll">
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="libtidy.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
