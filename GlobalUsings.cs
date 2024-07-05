@@ -3,7 +3,11 @@ global using System.Collections.Generic;
 global using System.Collections;
 global using System.IO;
 global using System.Linq;
-
 global using System;
 global using System.Diagnostics.CodeAnalysis;
 global using System.Reflection;
+global using SunamoTidy._sunamo.SunamoStringGetLines;
+global using SunamoTidy._sunamo.SunamoValues;
+global using SunamoTidy._sunamo.SunamoXlfKeys;
+global using SunamoTidy._sunamo.SunamoExceptions.OnlyInSE;
+global using SunamoTidy._sunamo.SunamoExceptions._AddedToAllCsproj;

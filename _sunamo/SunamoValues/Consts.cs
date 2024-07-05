@@ -1,4 +1,4 @@
-namespace SunamoTidy;
+namespace SunamoTidy._sunamo.SunamoValues;
 
 
 
