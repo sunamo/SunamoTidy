@@ -6,7 +6,7 @@
 
 //using TidyManaged;
 
-//[TestClass]
+
 //public class TidyHtml5ManagedRepackHelperTests
 //{
 //    [TestMethod]

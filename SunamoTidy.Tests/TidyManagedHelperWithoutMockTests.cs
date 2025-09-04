@@ -1,6 +1,6 @@
 namespace SunamoTidy.Tests;
 
-[TestClass]
+
 public class TidyManagedHelperWithoutMockTests
 {
     //[TestMethod]
