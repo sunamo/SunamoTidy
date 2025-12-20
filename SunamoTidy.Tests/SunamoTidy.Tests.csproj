@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Nullable>enable</Nullable>
@@ -18,12 +18,15 @@
     </PackageReference>
     <PackageReference Include="MSTest.TestFramework" Version="3.1.1">
     </PackageReference>
+    <PackageReference Include="xunit" Version="2.6.6" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.6" />
     <PackageReference Include="TidyHtml5ManagedRepack" Version="1.1.4">
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
-  <Import Project="..\packages\TidyHtml5ManagedRepack.1.1.4\build\TidyHtml5ManagedRepack.targets" Condition="Exists('..\packages\TidyHtml5ManagedRepack.1.1.4\build\TidyHtml5ManagedRepack.targets')">
+  <Import Project="..\packages\TidyHtml5ManagedRepack.1.1.4\build\TidyHtml5ManagedRepack.targets"
+    Condition="Exists('..\packages\TidyHtml5ManagedRepack.1.1.4\build\TidyHtml5ManagedRepack.targets')">
   </Import>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
