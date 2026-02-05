@@ -12,21 +12,27 @@
     <ProjectReference Include="..\SunamoTidy\SunamoTidy.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0">
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1">
     </PackageReference>
-    <PackageReference Include="MSTest.TestAdapter" Version="3.1.1">
+    <PackageReference Include="MSTest.TestAdapter" Version="4.1.0">
     </PackageReference>
-    <PackageReference Include="MSTest.TestFramework" Version="3.1.1">
+    <PackageReference Include="MSTest.TestFramework" Version="4.1.0">
     </PackageReference>
-    <PackageReference Include="xunit" Version="2.6.6" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.6" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="TidyHtml5ManagedRepack" Version="1.1.4">
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
-  <Import Project="..\packages\TidyHtml5ManagedRepack.1.1.4\build\TidyHtml5ManagedRepack.targets"
-    Condition="Exists('..\packages\TidyHtml5ManagedRepack.1.1.4\build\TidyHtml5ManagedRepack.targets')">
+  <Import Project="..\packages\TidyHtml5ManagedRepack.1.1.4\build\TidyHtml5ManagedRepack.targets" Condition="Exists('..\packages\TidyHtml5ManagedRepack.1.1.4\build\TidyHtml5ManagedRepack.targets')">
   </Import>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
