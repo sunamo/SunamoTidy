@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SunamoTidy.Tests\SunamoTidy.Tests.csproj" />
+  <Project Path="RunnerTidy\'.csproj" />
+  <Project Path="SunamoTidy\SunamoTidy.csproj" />
+</Solution>
