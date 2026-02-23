@@ -1,3 +1,4 @@
+// variables names: ok
 /* TidyHtml is not possible use with .NET5
  * Before in NET4 UT works fine
  * Now in net472 app works fine

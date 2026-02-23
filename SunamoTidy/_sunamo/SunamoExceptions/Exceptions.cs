@@ -1,4 +1,6 @@
 namespace SunamoTidy._sunamo.SunamoExceptions;
+
+// variables names: ok
 // © www.sunamo.cz. All Rights Reserved.
 internal sealed partial class Exceptions
 {
