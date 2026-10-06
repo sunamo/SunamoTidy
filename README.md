@@ -1,5 +1,10 @@
 # SunamoTidy
 
+## Short description
+
+Obálka nad knihovnou TidyHtml5ManagedRepack pro úpravu a formátování HTML v .NET aplikacích. Součást sbírky pinp s testy a Runnerem.
+
+
 Wrapper around TidyHtml5ManagedRepack for HTML tidying and formatting in .NET applications.
 
 ## Overview
